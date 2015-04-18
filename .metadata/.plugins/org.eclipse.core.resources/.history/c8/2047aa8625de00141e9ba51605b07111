@@ -1,0 +1,32 @@
+package com.panerabread.auit.pages.concrete;
+
+import com.panerabread.auit.pages.BasePage;
+import com.panerabread.auit.pages.MyAccountPages;
+import com.panerabread.auit.webdriverutils.AdvancedWebDriver;
+
+public class DefaultMyAccountPages extends BasePage {
+		private final String ADD_NEW_ADDRESS=".btn-primary", ADDRESS_TYPE="#type", NEW_ADDRESS="#address1", NAME="#name",
+		SUITE_APT_NUM="#identifier", NEW_CITY="#city", NEW_STATE="#state", NEW_ZIP="#zip",
+		PHONE="#primaryPhone", INSTRUCTIONS="#additionalInfo", SAVE_ADDRESS=".text-right > button:nth-child(1)",
+		CANCEL_ADD_ADDRESS="button.btn:nth-child(2)";
+		
+		public DefaultMyAccountPages(AdvancedWebDriver driver) {
+			super(driver);
+		}
+		
+		public DefaultMyAccountPages addNewAddress(String type, String address, String name, String suite, 
+				String city, String state, String zip, String phone, String instructions) {
+			driver().clickByCSS(this.ADD_NEW_ADDRESS);
+			driver().findByCSS(this.ADDRESS_TYPE).sendKeys(type);
+			driver().findByCSS(this.NEW_ADDRESS).sendKeys(address);
+			driver().findByCSS(this.NAME).sendKeys(name);
+			driver().findByCSS(this.SUITE_APT_NUM).sendKeys(suite);
+			driver().findByCSS(this.NEW_CITY).sendKeys(city);
+			driver().findByCSS(this.NEW_STATE).sendKeys(state);
+			driver().findByCSS(this.NEW_ZIP).sendKeys(zip);
+			driver().findByCSS(this.PHONE).sendKeys(phone);
+			driver().findByCSS(this.INSTRUCTIONS).sendKeys(instructions);
+			driver().clickByCSS(this.SAVE_ADDRESS);
+			return PageFactory.getMyAddressesPage(driver());
+		}
+}

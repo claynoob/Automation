@@ -1,0 +1,20 @@
+package com.panerabread.auit.pages.concrete;
+
+import com.panerabread.auit.pages.MenuCategory;
+import com.panerabread.auit.webdriverutils.AdvancedWebDriver;
+
+public class DefaultMenuCategory extends BasePageWithMenuFrame implements
+		MenuCategory {
+
+	private final String ORDER_BTN="return (function b(){ return (function a(itemId){ var foundItem= null; Array.prototype.slice.call(document.querySelectorAll('.col-xs-8')).forEach(function(itemPlacard) {if(itemPlacard.innerHTML.indexOf(itemId) > 0) {foundItem= itemPlacard;}}); return foundItem;})('%s').parentElement.parentElement.parentElement.parentElement.parentElement.getElementsByClassName('btn-primary')[0]})();";
+
+	public DefaultMenuCategory(AdvancedWebDriver driver) {
+		super(driver);
+	}
+
+	public MenuCategory orderItem(String name) {
+		driver().clickByJavascript(String.format(this.ORDER_BTN, name));
+		return this;
+	}
+
+}

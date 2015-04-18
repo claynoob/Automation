@@ -1,0 +1,18 @@
+1428323547673	Rename method 'openPastas'
+1428323565354	Rename field 'PASTA_IDX'
+1428342646036	Rename field 'BEVERAGE_UPSELL_NO'
+1428344290688	Rename field 'BAKERY_NO'
+1428349829965	Rename method 'noThanks'
+1428349944621	Rename field 'BAKERY_PROCEED_TO_PAYMENT'
+1428349953743	Rename field 'PROCEED_TO_PAYMENT'
+1428350956943	Delete elements
+1428350965126	Delete elements
+1428351658769	Rename method 'payWithManualVisa'
+1428428950859	Rename method 'signIn'
+1428434142961	Rename compilation unit 'RegisterNewUser.java'
+1428521184773	Rename type 'MyAddressesPage'
+1428521269931	Rename type 'DefaultMyAddressesPage'
+1428590635849	Rename method 'getSaladsPage'
+1428606539240	Rename method 'signInPhone'
+1428611514418	Rename local variable 'scripts'
+1428698449330	Rename method 'orderCombo'

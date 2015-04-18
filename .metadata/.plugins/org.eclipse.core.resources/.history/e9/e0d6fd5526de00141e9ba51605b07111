@@ -1,0 +1,6 @@
+package com.panerabread.auit.pages;
+
+public interface MyAccountPages extends PageWithMenuFrame {
+	MyAccountPages addNewAddress(String type, String address, String name, String suite, String city, String state,
+			String zip, String phone, String instructions);
+}

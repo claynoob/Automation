@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="org.openqa.selenium.firefox.FirefoxDriver"/>
+<fullyQualifiedTypeName name="org.openqa.selenium.remote.DesiredCapabilities"/>
+<fullyQualifiedTypeName name="org.openqa.selenium.remote.CapabilityType"/>
+<fullyQualifiedTypeName name="org.openqa.selenium.By.ByCssSelector"/>
+<fullyQualifiedTypeName name="org.openqa.selenium.By"/>
+<fullyQualifiedTypeName name="org.openqa.selenium.support.ui.ExpectedCondition"/>
+<fullyQualifiedTypeName name="org.openqa.selenium.JavascriptExecutor"/>
+<fullyQualifiedTypeName name="org.openqa.selenium.WebDriverException"/>
+<fullyQualifiedTypeName name="org.openqa.selenium.WebDriver.ImeHandler"/>
+<fullyQualifiedTypeName name="net.sourceforge.htmlunit.corejs.javascript.Function"/>
+<fullyQualifiedTypeName name="com.panerabread.auit.pages.concrete.function"/>
+<fullyQualifiedTypeName name="java.lang.reflect.Array"/>
+<fullyQualifiedTypeName name="java.sql.Array"/>
+<fullyQualifiedTypeName name="com.panerabread.auit.pages.OrderTypeLocationPage"/>
+<fullyQualifiedTypeName name="com.panerabread.auit.pages.BeverageUpsellModal"/>
+<fullyQualifiedTypeName name="com.panerabread.auit.pages.concrete.DefaultMainMenuPage"/>
+<fullyQualifiedTypeName name="org.openqa.selenium.WebElement"/>
+<fullyQualifiedTypeName name="com.panerabread.auit.pages.concrete.DefaultBakeryUpsellModal"/>
+<fullyQualifiedTypeName name="com.panerabread.auit.pages.concrete.DefaultBeverageUpsellModal"/>
+<fullyQualifiedTypeName name="com.panerabread.auit.pages.concrete.DefaultRewardsModal"/>
+<fullyQualifiedTypeName name="com.panerabread.auit.pages.CheckoutPage"/>
+<fullyQualifiedTypeName name="com.panerabread.auit.pages.CardTypes"/>
+<fullyQualifiedTypeName name="com.panerabread.auit.pages.HomePage"/>
+<fullyQualifiedTypeName name="com.panerabread.auit.pages.BasePage"/>
+<fullyQualifiedTypeName name="com.panerabread.auit.pages.MyAddressesPage"/>
+<fullyQualifiedTypeName name="org.apache.commons.lang3.ArrayUtils"/>
+<fullyQualifiedTypeName name="java.util.ArrayList"/>
+<fullyQualifiedTypeName name="java.lang.String"/>
+<fullyQualifiedTypeName name="java.util.concurrent.TimeUnit"/>
+<fullyQualifiedTypeName name="org.openqa.selenium.WebDriver"/>
+<fullyQualifiedTypeName name="org.openqa.selenium.support.ui.WebDriverWait"/>
+<fullyQualifiedTypeName name="com.panerabread.auit.webdriverutils.AdvancedWebDriverFactory"/>
+<fullyQualifiedTypeName name="com.panerabread.auit.webdriverutils.AdvancedWebDriver"/>
+</qualifiedTypeNameHistroy>

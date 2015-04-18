@@ -1,0 +1,20 @@
+package com.panerabread.auit.tests;
+
+import org.junit.Test;
+
+import com.panerabread.auit.pages.CardTypes;
+import com.panerabread.auit.pages.concrete.PageFactory;
+import com.panerabread.auit.webdriverutils.AdvancedWebDriver;
+import com.panerabread.auit.webdriverutils.AdvancedWebDriverFactory;
+
+public class AdHoc {
+	@Test
+	public void run() {
+		AdvancedWebDriver driver = AdvancedWebDriverFactory.getFirefoxDriver(10);
+		PageFactory.getQARCHome(driver).startRPUOrder().signIn("chaley.stanfield@panerabread.com", "bread3")
+				.chooseCafe("02215", 601272).orderForASAP().clickCategoryPlacard("Pastas")
+				.orderItem("Pasta Primavera").goToCheckout().dismissAllModals().payWithManualCC(CardTypes.VISA)
+				.verifyTotal(8.98f).verifySubtotal(8.39f).verifyTax(0.59f);
+		driver.quit();
+	}
+}

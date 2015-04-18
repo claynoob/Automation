@@ -1,0 +1,8 @@
+package com.panerabread.auit.pages;
+
+import com.panerabread.auit.pages.concrete.MyAddressesPage;
+
+public interface MyAddressesPage extends PageWithMenuFrame {
+	MyAddressesPage addNewAddress(String type, String address, String name, String suite, String city, String state,
+			String zip, String phone, String instructions);
+}

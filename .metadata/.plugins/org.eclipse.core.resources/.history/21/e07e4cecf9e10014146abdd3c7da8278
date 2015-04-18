@@ -1,0 +1,16 @@
+package com.panerabread.auit.tests;
+
+import org.junit.Test;
+
+import com.panerabread.auit.webdriverutils.AdvancedWebDriver;
+import com.panerabread.auit.webdriverutils.AdvancedWebDriverFactory;
+
+public class RPULater {
+
+	@Test
+	public void test() {
+		AdvancedWebDriver driver = AdvancedWebDriverFactory.getFirefoxDriver();
+		driver.quit();
+	}
+
+}

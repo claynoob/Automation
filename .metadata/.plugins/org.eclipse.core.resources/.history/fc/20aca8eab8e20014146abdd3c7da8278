@@ -1,0 +1,16 @@
+package com.panerabread.auit.webdriverutils;
+
+import java.util.concurrent.TimeUnit;
+
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.firefox.FirefoxDriver;
+
+public class AdvancedWebDriverFactory {
+		private static WebDriver driver = new FirefoxDriver();
+
+		public static AdvancedWebDriver getFirefoxDriver(int waitTime){
+			driver.manage().timeouts().implicitlyWait(waitTime, TimeUnit.SECONDS);
+		return new DefaultAdvancedWebDriver(new FirefoxDriver());
+	}
+
+}

@@ -1,0 +1,25 @@
+package com.panerabread.auit.tests;
+
+import java.util.concurrent.TimeUnit;
+
+import org.junit.Test;
+
+import com.panerabread.auit.pages.CardTypes;
+import com.panerabread.auit.pages.concrete.PageFactory;
+import com.panerabread.auit.webdriverutils.AdvancedWebDriver;
+import com.panerabread.auit.webdriverutils.AdvancedWebDriverFactory;
+
+public class RPUNow {
+	@Test
+	public void run() {
+		AdvancedWebDriver driver = AdvancedWebDriverFactory.getFirefoxDriver();
+		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+		PageFactory.getQARCHome(driver).startDeliveryOrder().signInWithPhone("9126544598", "bread3", "Emma")
+				.chooseCafe("02215", 601272).orderForASAP().clickCategory("Salads")
+				.orderItem("Chicken Caesar Salad").goToCheckout().selectBeverages("Lemonade")
+				.selectBakeryItems("Chocolate Cupcake").dismissRewards().payWithManualCC(CardTypes.AMEX).signOut();
+		//driver.quit();
+	}
+	
+}
+

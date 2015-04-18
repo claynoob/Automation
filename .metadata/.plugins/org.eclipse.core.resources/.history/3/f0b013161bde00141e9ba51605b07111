@@ -1,0 +1,27 @@
+package com.panerabread.auit.tests;
+
+import java.util.concurrent.TimeUnit;
+
+import org.junit.Test;
+
+import com.panerabread.auit.pages.CardTypes;
+import com.panerabread.auit.pages.concrete.PageFactory;
+import com.panerabread.auit.webdriverutils.AdvancedWebDriver;
+import com.panerabread.auit.webdriverutils.AdvancedWebDriverFactory;
+
+public class RPUNow {
+	@Test
+	public void run() {
+		AdvancedWebDriver driver = AdvancedWebDriverFactory.getFirefoxDriver();
+		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+		PageFactory.getQARCHome(driver).startDeliveryOrder().signIn("chaley.tester", "bread3")
+				.updateAccountInfo("ChaleyT", "Stanford", "200 N Mallard Dr", "Richmond Hill", "GA", "31324", "9121239879", "chaleystanfield@gmail.com");
+				/*.enterDeliveryAddress("203 Brookline Ave Boston MA").chooseDelAddressType("Apartment")
+				.enterPhoneNumber("9126544598").orderForASAP().openSalads()
+				.orderItem("Chicken Tortellini Alfredo").goToCheckout().selectBeverages()
+				.selectBakeryItems().dismissRewards().payWithManualCC(CardTypes.AMEX).signOut();*/
+		//driver.quit();
+	}
+	
+}
+

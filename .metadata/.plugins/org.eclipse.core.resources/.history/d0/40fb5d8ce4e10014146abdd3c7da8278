@@ -1,0 +1,8 @@
+package com.panerabread.auit.pages;
+
+public interface PageWithMenuFrame {
+	//public MenuCategory openSalads();
+	public CheckoutPage goToCheckout();
+	public MenuCategory clickCategoryPlacard(String category);
+	
+}

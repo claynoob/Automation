@@ -1,0 +1,14 @@
+package com.panerabread.auit.tests;
+
+import static org.junit.Assert.*;
+
+import org.junit.Test;
+
+public class RPULater {
+
+	@Test
+	public void test() {
+		fail("Not yet implemented");
+	}
+
+}

@@ -1,0 +1,17 @@
+1427893170857	Copy package
+1427895696752	Delete element
+1427977903398	Rename method 'openSalads'
+1427978305964	Rename method 'signin'
+1427979409509	Rename field 'SALAD_IDX'
+1427984226519	Rename type 'DefaultCategoryMenu'
+1427984271051	Rename field 'PAY_WITH_STORED_CC'
+1427993455623	Rename method 'populateCheckoutForm'
+1427994474701	Rename method 'payWithTestVisa'
+1427994487716	Rename method 'payWithTestDISC'
+1427994518983	Rename method 'payWithTestMAST'
+1427994534014	Rename method 'payWithTestAMEX'
+1428001404577	Delete elements
+1428001771074	Rename method 'dismissBakeryModal'
+1428001785682	Rename method 'dismissRewardsModal'
+1428002345703	Rename field 'ORDER_WHOLE'
+1428002356409	Rename method 'orderWholeItem'

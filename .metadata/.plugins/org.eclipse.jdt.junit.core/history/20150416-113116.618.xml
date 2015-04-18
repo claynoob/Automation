@@ -1,0 +1,315 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="DeliveryNow" project="FortifyQARC1" tests="13" started="13" failures="0" errors="5" ignored="0">
+  <testsuite name="com.panerabread.auit.tests.DeliveryNow" time="763.829">
+    <testcase name="addFavoriteCafe" classname="com.panerabread.auit.tests.DeliveryNow" time="35.345">
+      <error>org.openqa.selenium.WebDriverException: (intermediate value)(...) is null
+Command duration or timeout: 391 milliseconds
+Build info: version: '2.45.0', revision: '5017cb8e7ca8e37638dc3091b2440b90a1d8686f', time: '2015-02-27 09:10:26'
+System info: host: 'GDC-045', ip: '10.100.105.163', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_40'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=34.0.5, platform=WINDOWS, nativeEvents=true, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: c45d15ab-33b1-4cc1-b09e-e98627b40c0d&#13;
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)&#13;
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)&#13;
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)&#13;
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:422)&#13;
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:204)&#13;
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:156)&#13;
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:599)&#13;
+	at org.openqa.selenium.remote.RemoteWebDriver.executeScript(RemoteWebDriver.java:508)&#13;
+	at com.panerabread.auit.webdriverutils.DefaultAdvancedWebDriver.findByJavascript(DefaultAdvancedWebDriver.java:45)&#13;
+	at com.panerabread.auit.pages.concrete.DefaultMyAccountPages.addNewCafe(DefaultMyAccountPages.java:59)&#13;
+	at com.panerabread.auit.tests.DeliveryNow.addFavoriteCafe(DeliveryNow.java:73)&#13;
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)&#13;
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)&#13;
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)&#13;
+	at java.lang.reflect.Method.invoke(Method.java:497)&#13;
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:47)&#13;
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)&#13;
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:44)&#13;
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)&#13;
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:271)&#13;
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:70)&#13;
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:50)&#13;
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:238)&#13;
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:63)&#13;
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:236)&#13;
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:53)&#13;
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:229)&#13;
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:309)&#13;
+	at org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:50)&#13;
+	at org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:38)&#13;
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:459)&#13;
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:675)&#13;
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:382)&#13;
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:192)&#13;
+Caused by: org.openqa.selenium.WebDriverException: (intermediate value)(...) is null
+Build info: version: '2.45.0', revision: '5017cb8e7ca8e37638dc3091b2440b90a1d8686f', time: '2015-02-27 09:10:26'
+System info: host: 'GDC-045', ip: '10.100.105.163', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_40'
+Driver info: driver.version: unknown&#13;
+	at &lt;anonymous class&gt;.b(https://delivery1-qarc.panerabread.com/#!/account/my_cafes line 68 &gt; Function:1)&#13;
+	at &lt;anonymous class&gt;.anonymous(https://delivery1-qarc.panerabread.com/#!/account/my_cafes line 68 &gt; Function:1)&#13;
+	at &lt;anonymous class&gt;.handleEvaluateEvent(https://delivery1-qarc.panerabread.com/#!/account/my_cafes:68)&#13;
+	at &lt;anonymous class&gt;.c/a.bugsnag(https://d2wy8f7a9ursnm.cloudfront.net/bugsnag-2.min.js:1)&#13;
+&#13;
+</error>
+    </testcase>
+    <testcase name="saveFavoriteItem" classname="com.panerabread.auit.tests.DeliveryNow" time="56.297"/>
+    <testcase name="orderWithRewardsModal" classname="com.panerabread.auit.tests.DeliveryNow" time="54.913"/>
+    <testcase name="updateEmailPreferences" classname="com.panerabread.auit.tests.DeliveryNow" time="26.741"/>
+    <testcase name="DeliveryRegManualCC" classname="com.panerabread.auit.tests.DeliveryNow" time="65.711"/>
+    <testcase name="updateAccountInfo" classname="com.panerabread.auit.tests.DeliveryNow" time="84.195"/>
+    <testcase name="addStoredPhoneNumber" classname="com.panerabread.auit.tests.DeliveryNow" time="146.217">
+      <error>org.openqa.selenium.WebDriverException: Failed to connect to binary FirefoxBinary(C:\Program Files (x86)\Mozilla Firefox\firefox.exe) on port 7056; process output follows: 
+
+Build info: version: '2.45.0', revision: '5017cb8e7ca8e37638dc3091b2440b90a1d8686f', time: '2015-02-27 09:10:26'
+System info: host: 'GDC-045', ip: '10.100.105.163', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_40'
+Driver info: driver.version: FirefoxDriver&#13;
+	at org.openqa.selenium.firefox.internal.NewProfileExtensionConnection.start(NewProfileExtensionConnection.java:134)&#13;
+	at org.openqa.selenium.firefox.FirefoxDriver.startClient(FirefoxDriver.java:246)&#13;
+	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:114)&#13;
+	at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:191)&#13;
+	at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:186)&#13;
+	at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:182)&#13;
+	at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:95)&#13;
+	at com.panerabread.auit.webdriverutils.AdvancedWebDriverFactory.getFirefoxDriver(AdvancedWebDriverFactory.java:7)&#13;
+	at com.panerabread.auit.tests.DeliveryNow.addStoredPhoneNumber(DeliveryNow.java:100)&#13;
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)&#13;
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)&#13;
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)&#13;
+	at java.lang.reflect.Method.invoke(Method.java:497)&#13;
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:47)&#13;
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)&#13;
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:44)&#13;
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)&#13;
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:271)&#13;
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:70)&#13;
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:50)&#13;
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:238)&#13;
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:63)&#13;
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:236)&#13;
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:53)&#13;
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:229)&#13;
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:309)&#13;
+	at org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:50)&#13;
+	at org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:38)&#13;
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:459)&#13;
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:675)&#13;
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:382)&#13;
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:192)&#13;
+Caused by: org.openqa.selenium.WebDriverException: java.lang.InterruptedException: Process timed out after waiting for 45000 ms.
+Build info: version: '2.45.0', revision: '5017cb8e7ca8e37638dc3091b2440b90a1d8686f', time: '2015-02-27 09:10:26'
+System info: host: 'GDC-045', ip: '10.100.105.163', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_40'
+Driver info: driver.version: FirefoxDriver&#13;
+	at org.openqa.selenium.os.CommandLine.waitFor(CommandLine.java:131)&#13;
+	at org.openqa.selenium.firefox.FirefoxBinary.waitFor(FirefoxBinary.java:222)&#13;
+	at org.openqa.selenium.firefox.FirefoxBinary.clean(FirefoxBinary.java:242)&#13;
+	at org.openqa.selenium.firefox.internal.NewProfileExtensionConnection.start(NewProfileExtensionConnection.java:91)&#13;
+	... 31 more&#13;
+Caused by: java.lang.InterruptedException: Process timed out after waiting for 45000 ms.&#13;
+	at org.openqa.selenium.os.UnixProcess.waitFor(UnixProcess.java:148)&#13;
+	at org.openqa.selenium.os.CommandLine.waitFor(CommandLine.java:129)&#13;
+	... 34 more&#13;
+&#13;
+</error>
+    </testcase>
+    <testcase name="DeliveryAnonManualCC" classname="com.panerabread.auit.tests.DeliveryNow" time="50.639">
+      <error>org.openqa.selenium.WebDriverException: Failed to connect to binary FirefoxBinary(C:\Program Files (x86)\Mozilla Firefox\firefox.exe) on port 7056; process output follows: 
+1429198775446	addons.manager	DEBUG	Application has been upgraded&#13;
+1429198775612	addons.manager	DEBUG	Loaded provider scope for resource://gre/modules/addons/XPIProvider.jsm: ["XPIProvider"]&#13;
+1429198775615	addons.manager	DEBUG	Loaded provider scope for resource://gre/modules/LightweightThemeManager.jsm: ["LightweightThemeManager"]&#13;
+1429198775626	addons.xpi	DEBUG	startup&#13;
+1429198775645	addons.xpi	DEBUG	Skipping unavailable install location app-system-local&#13;
+1429198775645	addons.xpi	DEBUG	Skipping unavailable install location app-system-share&#13;
+1429198775647	addons.xpi	INFO	Mapping {972ce4c6-7e08-4474-a285-3208198ce6fd} to C:\Program Files (x86)\Mozilla Firefox\browser\extensions\{972ce4c6-7e08-4474-a285-3208198ce6fd}&#13;
+1429198775782	addons.xpi	INFO	Mapping fxdriver@googlecode.com to C:\Users\admin2\AppData\Local\Temp\anonymous922665039155679557webdriver-profile\extensions\fxdriver@googlecode.com&#13;
+1429198775782	addons.xpi	DEBUG	Ignoring file entry whose name is not a valid add-on ID: C:\Users\admin2\AppData\Local\Temp\anonymous922665039155679557webdriver-profile\extensions\webdriver-staging&#13;
+1429198775783	addons.xpi	DEBUG	checkForChanges&#13;
+1429198776023	addons.xpi	DEBUG	Directory state JSON differs: cache [] state [{"name":"app-global","addons":{"{972ce4c6-7e08-4474-a285-3208198ce6fd}":{"descriptor":"C:\\Program Files (x86)\\Mozilla Firefox\\browser\\extensions\\{972ce4c6-7e08-4474-a285-3208198ce6fd}","mtime":1427461150350,"rdfTime":1417010916000}}},{"name":"app-profile","addons":{"fxdriver@googlecode.com":{"descriptor":"C:\\Users\\admin2\\AppData\\Local\\Temp\\anonymous922665039155679557webdriver-profile\\extensions\\fxdriver@googlecode.com","mtime":1429198751919,"rdfTime":1429198751599}}}]&#13;
+1429198776224	addons.xpi-utils	DEBUG	Opening XPI database C:\Users\admin2\AppData\Local\Temp\anonymous922665039155679557webdriver-profile\extensions.json&#13;
+1429198776226	addons.xpi	DEBUG	New add-on fxdriver@googlecode.com installed in app-profile&#13;
+*** Blocklist::_loadBlocklistFromFile: blocklist is disabled&#13;
+1429198777430	addons.xpi-utils	DEBUG	Make addon app-profile:fxdriver@googlecode.com visible&#13;
+1429198777433	DeferredSave.extensions.json	DEBUG	Save changes&#13;
+1429198777467	DeferredSave.extensions.json	DEBUG	Save changes&#13;
+1429198777468	addons.xpi	DEBUG	New add-on {972ce4c6-7e08-4474-a285-3208198ce6fd} installed in app-global&#13;
+1429198777494	addons.xpi-utils	DEBUG	Make addon app-global:{972ce4c6-7e08-4474-a285-3208198ce6fd} visible&#13;
+1429198777494	DeferredSave.extensions.json	DEBUG	Save changes&#13;
+1429198777494	DeferredSave.extensions.json	DEBUG	Save changes&#13;
+1429198777509	addons.xpi	DEBUG	Updating database with changes to installed add-ons&#13;
+1429198777509	addons.xpi-utils	DEBUG	Updating add-on states&#13;
+1429198777510	addons.xpi-utils	DEBUG	Writing add-ons list&#13;
+1429198777598	addons.manager	DEBUG	Registering shutdown blocker for XPIProvider&#13;
+1429198777599	addons.manager	DEBUG	Registering shutdown blocker for LightweightThemeManager&#13;
+1429198777601	addons.manager	DEBUG	Registering shutdown blocker for OpenH264Provider&#13;
+1429198777601	addons.manager	DEBUG	Registering shutdown blocker for PluginProvider&#13;
+
+Build info: version: '2.45.0', revision: '5017cb8e7ca8e37638dc3091b2440b90a1d8686f', time: '2015-02-27 09:10:26'
+System info: host: 'GDC-045', ip: '10.100.105.163', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_40'
+Driver info: driver.version: FirefoxDriver&#13;
+	at org.openqa.selenium.firefox.internal.NewProfileExtensionConnection.start(NewProfileExtensionConnection.java:134)&#13;
+	at org.openqa.selenium.firefox.FirefoxDriver.startClient(FirefoxDriver.java:246)&#13;
+	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:114)&#13;
+	at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:191)&#13;
+	at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:186)&#13;
+	at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:182)&#13;
+	at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:95)&#13;
+	at com.panerabread.auit.webdriverutils.AdvancedWebDriverFactory.getFirefoxDriver(AdvancedWebDriverFactory.java:7)&#13;
+	at com.panerabread.auit.tests.DeliveryNow.DeliveryAnonManualCC(DeliveryNow.java:32)&#13;
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)&#13;
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)&#13;
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)&#13;
+	at java.lang.reflect.Method.invoke(Method.java:497)&#13;
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:47)&#13;
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)&#13;
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:44)&#13;
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)&#13;
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:271)&#13;
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:70)&#13;
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:50)&#13;
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:238)&#13;
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:63)&#13;
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:236)&#13;
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:53)&#13;
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:229)&#13;
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:309)&#13;
+	at org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:50)&#13;
+	at org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:38)&#13;
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:459)&#13;
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:675)&#13;
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:382)&#13;
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:192)&#13;
+Caused by: org.openqa.selenium.WebDriverException: java.lang.InterruptedException: Process timed out after waiting for 45000 ms.
+Build info: version: '2.45.0', revision: '5017cb8e7ca8e37638dc3091b2440b90a1d8686f', time: '2015-02-27 09:10:26'
+System info: host: 'GDC-045', ip: '10.100.105.163', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_40'
+Driver info: driver.version: FirefoxDriver&#13;
+	at org.openqa.selenium.os.CommandLine.waitFor(CommandLine.java:131)&#13;
+	at org.openqa.selenium.firefox.FirefoxBinary.waitFor(FirefoxBinary.java:222)&#13;
+	at org.openqa.selenium.firefox.FirefoxBinary.clean(FirefoxBinary.java:242)&#13;
+	at org.openqa.selenium.firefox.internal.NewProfileExtensionConnection.start(NewProfileExtensionConnection.java:91)&#13;
+	... 31 more&#13;
+Caused by: java.lang.InterruptedException: Process timed out after waiting for 45000 ms.&#13;
+	at org.openqa.selenium.os.UnixProcess.waitFor(UnixProcess.java:148)&#13;
+	at org.openqa.selenium.os.CommandLine.waitFor(CommandLine.java:129)&#13;
+	... 34 more&#13;
+&#13;
+</error>
+    </testcase>
+    <testcase name="addStoredAddress" classname="com.panerabread.auit.tests.DeliveryNow" time="89.067"/>
+    <testcase name="addStoredCC" classname="com.panerabread.auit.tests.DeliveryNow" time="35.277"/>
+    <testcase name="addStoredGC" classname="com.panerabread.auit.tests.DeliveryNow" time="32.866"/>
+    <testcase name="saveFavoriteOrder" classname="com.panerabread.auit.tests.DeliveryNow" time="46.244">
+      <error>org.openqa.selenium.NoSuchElementException: Unable to locate element: {"method":"css selector","selector":"select.form-control"}
+Command duration or timeout: 10.13 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.45.0', revision: '5017cb8e7ca8e37638dc3091b2440b90a1d8686f', time: '2015-02-27 09:10:26'
+System info: host: 'GDC-045', ip: '10.100.105.163', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_40'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=34.0.5, platform=WINDOWS, nativeEvents=true, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 0340ed1a-cdfd-409e-ab47-313965bb61b1
+*** Element info: {Using=css selector, value=select.form-control}&#13;
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)&#13;
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)&#13;
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)&#13;
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:422)&#13;
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:204)&#13;
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:156)&#13;
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:599)&#13;
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:352)&#13;
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByCssSelector(RemoteWebDriver.java:441)&#13;
+	at org.openqa.selenium.By$ByCssSelector.findElement(By.java:425)&#13;
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:344)&#13;
+	at com.panerabread.auit.webdriverutils.DefaultAdvancedWebDriver.findByCSS(DefaultAdvancedWebDriver.java:77)&#13;
+	at com.panerabread.auit.pages.concrete.DefaultOrderTimePage.chooseDelAddressType(DefaultOrderTimePage.java:45)&#13;
+	at com.panerabread.auit.tests.DeliveryNow.saveFavoriteOrder(DeliveryNow.java:126)&#13;
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)&#13;
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)&#13;
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)&#13;
+	at java.lang.reflect.Method.invoke(Method.java:497)&#13;
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:47)&#13;
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)&#13;
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:44)&#13;
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)&#13;
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:271)&#13;
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:70)&#13;
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:50)&#13;
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:238)&#13;
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:63)&#13;
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:236)&#13;
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:53)&#13;
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:229)&#13;
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:309)&#13;
+	at org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:50)&#13;
+	at org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:38)&#13;
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:459)&#13;
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:675)&#13;
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:382)&#13;
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:192)&#13;
+Caused by: org.openqa.selenium.NoSuchElementException: Unable to locate element: {"method":"css selector","selector":"select.form-control"}
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.45.0', revision: '5017cb8e7ca8e37638dc3091b2440b90a1d8686f', time: '2015-02-27 09:10:26'
+System info: host: 'GDC-045', ip: '10.100.105.163', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_40'
+Driver info: driver.version: unknown&#13;
+	at &lt;anonymous class&gt;.FirefoxDriver.prototype.findElementInternal_(file:///C:/Users/admin2/AppData/Local/Temp/anonymous5345717549762566087webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:10271)&#13;
+	at &lt;anonymous class&gt;.fxdriver.Timer.prototype.setTimeout/&lt;.notify(file:///C:/Users/admin2/AppData/Local/Temp/anonymous5345717549762566087webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:603)&#13;
+&#13;
+</error>
+    </testcase>
+    <testcase name="DeliveryRegStoredCC" classname="com.panerabread.auit.tests.DeliveryNow" time="38.754">
+      <error>org.openqa.selenium.NoSuchElementException: Unable to locate element: {"method":"css selector","selector":"select.form-control"}
+Command duration or timeout: 10.11 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.45.0', revision: '5017cb8e7ca8e37638dc3091b2440b90a1d8686f', time: '2015-02-27 09:10:26'
+System info: host: 'GDC-045', ip: '10.100.105.163', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_40'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=34.0.5, platform=WINDOWS, nativeEvents=true, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 7d3ebd0a-71dd-40fd-b350-de6ab92f4ca1
+*** Element info: {Using=css selector, value=select.form-control}&#13;
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)&#13;
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)&#13;
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)&#13;
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:422)&#13;
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:204)&#13;
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:156)&#13;
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:599)&#13;
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:352)&#13;
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByCssSelector(RemoteWebDriver.java:441)&#13;
+	at org.openqa.selenium.By$ByCssSelector.findElement(By.java:425)&#13;
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:344)&#13;
+	at com.panerabread.auit.webdriverutils.DefaultAdvancedWebDriver.findByCSS(DefaultAdvancedWebDriver.java:77)&#13;
+	at com.panerabread.auit.pages.concrete.DefaultOrderTimePage.chooseDelAddressType(DefaultOrderTimePage.java:45)&#13;
+	at com.panerabread.auit.tests.DeliveryNow.DeliveryRegStoredCC(DeliveryNow.java:24)&#13;
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)&#13;
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)&#13;
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)&#13;
+	at java.lang.reflect.Method.invoke(Method.java:497)&#13;
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:47)&#13;
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)&#13;
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:44)&#13;
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)&#13;
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:271)&#13;
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:70)&#13;
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:50)&#13;
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:238)&#13;
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:63)&#13;
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:236)&#13;
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:53)&#13;
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:229)&#13;
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:309)&#13;
+	at org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:50)&#13;
+	at org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:38)&#13;
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:459)&#13;
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:675)&#13;
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:382)&#13;
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:192)&#13;
+Caused by: org.openqa.selenium.NoSuchElementException: Unable to locate element: {"method":"css selector","selector":"select.form-control"}
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.45.0', revision: '5017cb8e7ca8e37638dc3091b2440b90a1d8686f', time: '2015-02-27 09:10:26'
+System info: host: 'GDC-045', ip: '10.100.105.163', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_40'
+Driver info: driver.version: unknown&#13;
+	at &lt;anonymous class&gt;.FirefoxDriver.prototype.findElementInternal_(file:///C:/Users/admin2/AppData/Local/Temp/anonymous5785340237903926021webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:10271)&#13;
+	at &lt;anonymous class&gt;.fxdriver.Timer.prototype.setTimeout/&lt;.notify(file:///C:/Users/admin2/AppData/Local/Temp/anonymous5785340237903926021webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:603)&#13;
+&#13;
+</error>
+    </testcase>
+  </testsuite>
+</testrun>
